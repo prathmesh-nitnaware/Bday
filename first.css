@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, rgb(231, 143, 158), lightpink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center-band {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#myButton {
+    background-color: rgb(255, 182, 193);
+    border: 2px solid black; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px; 
+    width: 50%; 
+    max-width: 300px;
+}

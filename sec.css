@@ -1,0 +1,35 @@
+body {
+    background: rgb(255,161,161); /* Change background color to gold */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.animated-text {
+    font-size: 4em;
+    color: black; /* Change text color to red */
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+    animation: fallIn 0.5s ease-out forwards; /* Adjust animation duration and type */
+}
+
+@keyframes fallIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px); /* Start above the viewport */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at the original position */
+    }
+}

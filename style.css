@@ -1,0 +1,142 @@
+html {
+    background-image: url("./back.jpg");
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
+
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 50; }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#head {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Comic Sans MS', cursive, serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#para {
+    text-align: center;
+    background-color: #FFCCE1;
+    color: rgb(28, 2, 2);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: outset 0 0 5px #000000;
+    cursor: pointer;
+    width: 100%; /* Make the div span the entire width */
+    max-width: 1200px; /* Optional: set a max-width */
+    margin-bottom: auto;
+}
+
+#para1 {
+    text-align: center;
+    background-color: #FFCCE1;
+    color: rgb(28, 2, 2);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: outset 0 0 5px #000000;
+    cursor: pointer;
+    width: 100%; /* Make the div span the entire width */
+    max-width: 1200px; /* Optional: set a max-width */
+    margin-bottom: 30px;
+}
+
+#img {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the images */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    padding: 0 20px; 
+    margin-top: 20px; 
+    margin-bottom: auto;
+}
+
+#img2, #img3, #img4, #img5{
+    width: 20%;
+    max-width: 45%; /* Adjust the max-width to make the images smaller */
+    height: auto; 
+    margin: 0 50px; /* Reduce the margin between the images */
+}
+
+#img6{
+    width: 30%;
+    max-width: 60%; /* Adjust the max-width to make the images smaller */
+    height: auto; 
+    margin: 0 50px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+    #head {
+        font-size: 200%; /* Adjust font size for mobile */
+    }
+
+    #para {
+        font-size: 14px; /* Adjust font size for mobile */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    #img {
+        max-width: 80%; /* Adjust image size for mobile */
+    }
+
+    .image-container {
+        flex-direction: column; /* Stack images vertically on mobile */
+        align-items: center; /* Center the images */
+        margin-top: 20px;
+    }
+
+    #img2, #img3, #img4, #img5{
+        max-width: 80%; /* Adjust image size for mobile */
+        margin: 10px 0; /* Add margin between stacked images */
+    }
+    #img6{
+        max-width: 80%; /* Adjust image size for mobile */
+        margin: 10px 0;
+    }
+}
+
+.center-band {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+}
+
+#myButton {
+    background-color: rgb(255, 182, 193);
+    border: 2px solid black; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px; 
+    width: 50%; 
+    max-width: 300px;
+}

@@ -40,7 +40,7 @@ body {
     cursor: pointer;
     width: 100%; /* Make the div span the entire width */
     max-width: 1200px; /* Optional: set a max-width */
-    margin-bottom: auto;
+    margin-bottom: 30px;
 }
 
 #para1 {
@@ -65,24 +65,26 @@ body {
 }
 
 .image-container {
-    display: flex;
+    display: center;
+    border-spacing: 100%;
     justify-content: center; /* Center the images */
     align-items: center;
     width: 100%;
     max-width: 1200px; 
-    padding: 0 20px; 
+    padding: 0 2px; 
     margin-top: 20px; 
     margin-bottom: auto;
 }
 
-#img2, #img3, #img4, #img5{
-    width: 20%;
-    max-width: 45%; /* Adjust the max-width to make the images smaller */
+#img2, #img4{
+    width: 50%;
+    max-width: 1200px; /* Adjust the max-width to make the images smaller */
     height: auto; 
-    margin: 0 3px; /* Reduce the margin between the images */
+    margin: 0 0px; /* Reduce the margin between the images */
 }
 
 #img6{
+    margin-top: 20%;
     width: 30%;
     max-width: 60%; /* Adjust the max-width to make the images smaller */
     height: auto; 
